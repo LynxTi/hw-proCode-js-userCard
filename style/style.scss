@@ -1,0 +1,31 @@
+.form-container{
+    width: 630px;
+    padding: 15px 30px;
+    border: solid 1px darkgray;
+    display: flex;
+    margin-bottom: 30px;
+
+    input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        width: 45px;
+        height: 30px;
+        }
+}
+
+.user-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .user-card {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border: lightgrey 1px solid;
+    }
+}
